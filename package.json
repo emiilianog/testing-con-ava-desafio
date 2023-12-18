@@ -8,18 +8,19 @@
   },
   "ava": {
     "extensions": {
-      "ts": "module"
+      "ts": "commonjs"
     },
-    "nodeArguments": [
-      "--loader=tsx"
+    "require": [
+      "ts-node/register"
     ]
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^4.9.5",
     "ava": "^5.3.1",
-    "tsx": "^3.13.0"
+    "ts-node": "^10.9.2",
+    "tsx": "^3.13.0",
+    "typescript": "^4.9.5"
   }
 }
